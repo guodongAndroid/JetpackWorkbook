@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Jetpack Workbook</string>
+    <string name="life_cycle_activity">LifecycleActivity</string>
+    <string name="view_model_activity">ViewModelActivity</string>
+    <string name="increment">Increment</string>
+    <string name="decrement">Decrement</string>
+    <string name="increment_event">Increment_Event</string>
+    <string name="decrement_event">Decrement_Event</string>
+    <string name="increment_post">Increment_Post</string>
+    <string name="decrement_post">Decrement_Post</string>
+    <string name="live_data_activity">LiveDataActivity</string>
+    <string name="room_add_user">Add User</string>
+    <string name="room_edit_user">Edit User</string>
+    <string name="room_get_user">Get User</string>
+    <string name="room_load_users">Load Users</string>
+    <string name="hint_room_type_your_name">请输入用户名</string>
+    <string name="hint_room_type_your_age">请输入年龄</string>
+    <string name="room_activity">RoomActivity</string>
+    <string name="datastore_fragment">DataStoreFragment</string>
+    <string name="paging_fragment">PagingFragment</string>
+    <string name="viewpager_fragment">ViewPagerFragment</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="hint_room_type_user_id">请输入用户ID</string>
+    <string name="loading">加载中....</string>
+    <string name="viewmodel_activity_count">ViewModelActivityCount</string>
+    <string name="livedata_activity_count">LiveDataActivityCount</string>
+    <string name="modify_viewmodel_count">修改ViewModelCount</string>
+    <string name="modify_livedata_count">修改LiveDataCount</string>
+    <string name="navigate_to_room_activity">打开RoomActivity</string>
+    <string name="room_operation">room_operation</string>
+
+    <string-array name="play_list_names">
+        <item>推荐</item>
+        <item>官方</item>
+        <item>精品</item>
+        <item>综艺</item>
+        <item>工作</item>
+        <item>华语</item>
+        <item>流行</item>
+    </string-array>
+
+    <string-array name="play_list_colors">
+        <item>#00FF00</item>
+        <item>#FF0000</item>
+        <item>#0000FF</item>
+        <item>#0F1F0F</item>
+        <item>#A0A00F</item>
+        <item>#4F1F4F</item>
+        <item>#333333</item>
+    </string-array>
+</resources>

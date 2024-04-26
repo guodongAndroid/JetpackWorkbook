@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RunWayView">
+        <attr name="rw_outerRingColor" format="color|reference"/>
+        <attr name="rw_outerRingWidth" format="dimension"/>
+
+        <attr name="rw_innerRingColor" format="color|reference"/>
+        <attr name="rw_innerRingWidth" format="dimension"/>
+
+        <attr name="rw_progressRingStartColor" format="color|reference"/>
+        <attr name="rw_progressRingCenterColor" format="color|reference"/>
+        <attr name="rw_progressRingEndColor" format="color|reference"/>
+        <attr name="rw_progressRingWidth" format="dimension"/>
+
+        <attr name="rw_progressIndicatorShadowColor" format="color|reference"/>
+        <attr name="rw_progressIndicatorColor" format="color|reference"/>
+        <attr name="rw_progressIndicatorRadius" format="dimension"/>
+
+        <attr name="rw_progress" format="integer"/>
+        <attr name="rw_max_progress" format="integer"/>
+        <attr name="rw_slope" format="float"/>
+        <attr name="rw_laps" format="integer"/>
+        <attr name="rw_speed" format="float"/>
+
+        <attr name="rw_valueTextColor" format="color|reference"/>
+        <attr name="rw_valueTextSize" format="dimension"/>
+        <attr name="rw_valueTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+
+        <attr name="rw_fixedTextColor" format="color|reference"/>
+        <attr name="rw_fixedTextSize" format="dimension"/>
+        <attr name="rw_fixedTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jetpack"
+    app:startDestination="@id/jetpackFragment">
+    <fragment
+        android:id="@+id/jetpackFragment"
+        android:name="com.example.myapplication.jetpack.JetpackFragment"
+        android:label="JetpackFragment">
+        <action
+            android:id="@+id/action_jetpackFragment_to_viewModelActivity"
+            app:destination="@id/viewModelActivity"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_jetpackFragment_to_liveDataActivity"
+            app:destination="@id/liveDataActivity"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_jetpackFragment_to_roomActivity"
+            app:destination="@id/roomActivity"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_jetpackFragment_to_dataStoreFragment"
+            app:destination="@id/dataStoreFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_jetpackFragment_to_lifecycleActivity"
+            app:destination="@id/lifecycleActivity"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_jetpackFragment_to_pagingFragment"
+            app:destination="@id/pagingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_jetpackFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <activity
+        android:id="@+id/viewModelActivity"
+        android:name="com.example.myapplication.jetpack.viewmodel.ViewModelActivity"
+        android:label="activity_viewmodel"
+        tools:layout="@layout/activity_viewmodel" />
+    <activity
+        android:id="@+id/liveDataActivity"
+        android:name="com.example.myapplication.jetpack.livedata.LiveDataActivity"
+        android:label="activity_livedata"
+        tools:layout="@layout/activity_livedata" />
+    <activity
+        android:id="@+id/roomActivity"
+        android:name="com.example.myapplication.jetpack.room.RoomActivity"
+        android:label="activity_room"
+        tools:layout="@layout/activity_room" />
+    <fragment
+        android:id="@+id/dataStoreFragment"
+        android:name="com.example.myapplication.jetpack.datastore.DataStoreFragment"
+        android:label="DataStoreFragment" />
+    <activity
+        android:id="@+id/lifecycleActivity"
+        android:name="com.example.myapplication.jetpack.lifecycle.LifecycleActivity"
+        android:label="LifecycleActivity" />
+    <fragment
+        android:id="@+id/pagingFragment"
+        android:name="com.example.myapplication.jetpack.paging.PagingFragment"
+        android:label="PagingFragment">
+        <action
+            android:id="@+id/action_pagingFragment_to_roomActivity"
+            app:destination="@id/roomActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.myapplication.jetpack.viewpager.ViewPagerFragment"
+        android:label="ViewPagerFragment" />
+</navigation>
