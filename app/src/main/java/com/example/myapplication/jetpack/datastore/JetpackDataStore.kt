@@ -54,7 +54,7 @@ object JetpackDataStore {
         dataStore.data.map { preferences -> preferences[key] ?: defaultValue }
 }
 
-fun <T> Flow<T>.await(): T = runBlocking { last() }
+fun <T> Flow<T>.await(): T = runBlocking { first() }
 
 fun booleanPreferencesKey(name: String = "") =
     ReadOnlyProperty<Any, Preferences.Key<Boolean>> { _, property ->
